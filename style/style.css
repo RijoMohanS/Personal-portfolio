@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+}
+.name{
+    text-align: center;
+    font-size: 100PX;
+    margin: 0;
+    padding: 0;
+    padding-top: 225px;
+}
+.hero{
+    position: relative;
+    height: auto;
+    background-color: #A0DFFF;
+    margin: 0;
+}
+.color1{
+    color: #346A85;
+}
+.programmer{
+    text-align: center;
+    font-size: 40PX;
+    margin: o;
+    padding: 0;
+    padding-top: 10px;
+    font-family: asar;
+    letter-spacing: 0.08px ;
+}
+.line{
+    text-decoration: underline;
+}
+.cloud{
+    width: 500PX;
+    position: absolute;
+    left: 80px;
+    top: 0px;
+}
+.cloud2{
+    width: 500PX;
+    position: absolute;
+    right: 00px;
+    bottom: 200px;
+}
+.mountain{
+    margin-top: 28px;
+}
+.cent{
+    text-align: center;
+}
+.propic{
+    width: 236px;
+    height: 236px;
+    border-radius: 50%;
+    background-color: #A0DFFF;
+    margin-top: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.hai{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #346A85
+}
+.intro{
+    display: flex;
+    max-width: 700px;
+    margin-top: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+p{
+    font-family: asar;
+}
+.line1{
+    border-top: dotted black 10px;
+    height: 10px;
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.resume{
+    margin-top: 98px;
+}
+.subtitle{
+    text-decoration: underline;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.font1{
+    font-family: arima;
+}
+.marginbottom{
+    margin-bottom: 50px;
+}
+.color2{
+    color: #348578;
+}
+.heading{
+    font-weight: bold;
+    font-size: 24px;
+}
+.justify{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 30px;
+}
+.skill-img{
+    display: flex;
+    max-width: 200px;
+}
+.con{
+    max-width: 800px;
+    text-align: center;
+    text-justify: inter-word;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginbottom2{
+    margin-bottom: 100px;
+}
+.size{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+@media screen and (max-width: 491px) {
+    .cloud {
+      width: 200px;
+      position: absolute;
+      left: 20PX;
+      top: 30px;
+    }
+    .cloud2{
+        width: 120px;
+        position: absolute;
+        bottom: 360px;
+        padding-bottom: 50PX;
+    }
+    .name{
+        font-size: 70px;
+        padding-top: 180px;
+    }
+    .programmer{
+        font-size: 30px;
+    }
+}
+  @media screen and (min-width: 491px) and  (max-width: 700px) {
+    .cloud {
+        width: 230px;
+        position: absolute;
+        left: -10PX;
+        top: 10px;
+      }
+      .cloud2{
+          width: 180px;
+          position: absolute;
+          bottom: 360px;
+          padding-bottom: 20PX;
+          right: -10;
+      }
+
+  }
+  @media screen and (min-width: 701px) and  (max-width: 1400px) {
+    .cloud {
+        width: 320px;
+        position: absolute;
+        left: 30PX;
+        top: 10px;
+      }
+      .cloud2{
+          width: 300px;
+          position: absolute;
+          bottom: 360px;
+          padding-bottom: 20PX;
+          right: -10;
+      }
+
+  }
+  @media screen and (min-width: 350px) and (max-width: 490px) {
+    .cloud2{
+        width: 120px;
+        position: absolute;
+        bottom: 320px;
+        padding-bottom: 10px;
+    }
+    }
